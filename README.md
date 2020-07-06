@@ -1,10 +1,8 @@
-<<<<<<< HEAD
 # Vizuálna analýza malej fotovoltickej elektrárne s použitím Excelu a Power BI Desktop
 
-=======
->>>>>>> e5098fe... Použitie parametra pre zadávaníie cesty k súboru Fotovoltaika.xlsx, vyčistenie od nepotrebných xlsx súborov a listov v súbore   Fotovoltaika.xlsx.
 Aplikácia využíva Microsoft Excel pre zber dát o prevádzke malej fotovoltaickej elektrárne a Microsoft Power BI Desktop pre tvorbu reportov.
-Popis aplikácie nájdete v článku Power BI a vizuálna datová analýza malej fotovoltickej elektrárne - https://www.saeautom.sk/download/FVEandPowerBI.pdf. Príklad reportu v pdf dokumente vytvoreného pomocou Power BI Desktop nájdete na  
+
+Popis aplikácie nájdete v článku Power BI a vizuálna datová analýza malej fotovoltickej elektrárne - https://www.saeautom.sk/download/FVEandPowerBI.pdf. Príklad reportu v pdf dokumente vytvoreného pomocou Power BI Desktop nájdete na 
 https://github.com/SAE-Automation/Photovoltaics_Power_BI/blob/master/FV3.pdf .
 
 Pre využitie aplikácie je potrebné mať naištalovaný Microsoft Excel, napr. poskytovaný v rámci Microsoft 365, a aplikáciu Microsoft Power BI Desktop, ktorú je možné stiahnúť z https://www.microsoft.com/en-us/download/details.aspx?id=45331 . Pred stiahnutím je vhodné nastaviť požadovaný jazyk užívateľského rozhrania - je možné si nastaviť slovenskú verziu.
@@ -19,12 +17,3 @@ Demo verziu aplikácie generovanej v Power BI Pro a vloženej do webovej apliká
 
 Demo aplikácia môže bežať aj samostatne v Power BI cloude - poyrite si na https://app.powerbi.com/view?r=eyJrIjoiMTQzZTIwZDEtMmY2MS00NjFkLTliMzQtOTkwYzQyNWQ5MGI5IiwidCI6ImNmZjU5MDQ2LTc5MzUtNGU3NS04OGY0LTNjODZjMTc1MTVjYyIsImMiOjl9 .
 
-<<<<<<< HEAD
-
-
-
-
-
-
-=======
->>>>>>> e5098fe... Použitie parametra pre zadávaníie cesty k súboru Fotovoltaika.xlsx, vyčistenie od nepotrebných xlsx súborov a listov v súbore   Fotovoltaika.xlsx.

@@ -15,5 +15,13 @@ Pre využitie aplikácie s vlastnými dátami je potrebné data z listu "Mesiace
 
 Demo verziu aplikácie generovanej v Power BI Pro a vloženej do webovej aplikácie využívajúcej Blazor WebAssembly na Microsoft Azure lokalite pre statické webové aplikácie môžete spustiť vo webovom prehlíadači na <https://csbf095064e64c6x4f64x886.z6.web.core.windows.net/>. 
 
-Demo aplikácia môže bežať aj samostatne v Power BI cloude - poyrite si na <https://app.powerbi.com/view?r=eyJrIjoiMTQzZTIwZDEtMmY2MS00NjFkLTliMzQtOTkwYzQyNWQ5MGI5IiwidCI6ImNmZjU5MDQ2LTc5MzUtNGU3NS04OGY0LTNjODZjMTc1MTVjYyIsImMiOjl9> .
+Demo aplikácia môže bežať aj samostatne v Power BI cloude - pozrite si na <https://app.powerbi.com/view?r=eyJrIjoiMTQzZTIwZDEtMmY2MS00NjFkLTliMzQtOTkwYzQyNWQ5MGI5IiwidCI6ImNmZjU5MDQ2LTc5MzUtNGU3NS04OGY0LTNjODZjMTc1MTVjYyIsImMiOjl9> .
+
+Je výhodné používať pre zadávanie odpočtov súbor Fotovoltaika.xlsx umiestnený v SharePoint alebo OneDrive adresári. K takemúto súboru je potom možné pristupovať aj z online verzie Excelu na mobile.
+Zdroj dat je v takomto prípade definovaný ako  
+	Source = Excel.Workbook(Web.Contents(XLSXfileLocation), null, true),
+kde parameter XLSXfileLocation môže byť napr. https://saeautomation.sharepoint.com/Zdielane%20dokumenty/Fotovoltaika.xlsx. (Samozrejme je potrebné nahradiť saeautomation.sharepoint.com Vašim sharepoint účtom.)
+
+
+
 
